@@ -60,6 +60,13 @@
     <Compile Include="Layouts\JavaScript\ReadSiteProperties.aspx.designer.cs">
       <DependentUpon>ReadSiteProperties.aspx.cs</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\JavaScript\UpdateSiteProperties.aspx.cs">
+      <DependentUpon>UpdateSiteProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\UpdateSiteProperties.aspx.designer.cs">
+      <DependentUpon>UpdateSiteProperties.aspx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Layouts\JavaScript\ReadSiteProperties.aspx" />
+    <Content Include="Layouts\JavaScript\UpdateSiteProperties.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
