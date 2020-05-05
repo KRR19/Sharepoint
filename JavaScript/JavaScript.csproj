@@ -53,6 +53,13 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Layouts\JavaScript\GetLists.aspx.cs">
+      <DependentUpon>GetLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\GetLists.aspx.designer.cs">
+      <DependentUpon>GetLists.aspx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\JavaScript\ReadSiteProperties.aspx.cs">
       <DependentUpon>ReadSiteProperties.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -82,6 +89,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Layouts\JavaScript\GetLists.aspx" />
     <Content Include="Layouts\JavaScript\ReadSiteProperties.aspx" />
     <Content Include="Layouts\JavaScript\UpdateSiteProperties.aspx" />
   </ItemGroup>
