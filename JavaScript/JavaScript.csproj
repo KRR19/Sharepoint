@@ -53,12 +53,33 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Layouts\JavaScript\AddRecordstoList.aspx.cs">
+      <DependentUpon>AddRecordstoList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\AddRecordstoList.aspx.designer.cs">
+      <DependentUpon>AddRecordstoList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\CreateList.aspx.cs">
+      <DependentUpon>CreateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\CreateList.aspx.designer.cs">
+      <DependentUpon>CreateList.aspx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\JavaScript\CreateSite.aspx.cs">
       <DependentUpon>CreateSite.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Layouts\JavaScript\CreateSite.aspx.designer.cs">
       <DependentUpon>CreateSite.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\GetFieldsOfList.aspx.cs">
+      <DependentUpon>GetFieldsOfList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\GetFieldsOfList.aspx.designer.cs">
+      <DependentUpon>GetFieldsOfList.aspx.cs</DependentUpon>
     </Compile>
     <Compile Include="Layouts\JavaScript\GetLists.aspx.cs">
       <DependentUpon>GetLists.aspx</DependentUpon>
@@ -96,7 +117,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Layouts\JavaScript\AddRecordstoList.aspx" />
+    <Content Include="Layouts\JavaScript\CreateList.aspx" />
     <Content Include="Layouts\JavaScript\CreateSite.aspx" />
+    <Content Include="Layouts\JavaScript\GetFieldsOfList.aspx" />
     <Content Include="Layouts\JavaScript\GetLists.aspx" />
     <Content Include="Layouts\JavaScript\ReadSiteProperties.aspx" />
     <Content Include="Layouts\JavaScript\UpdateSiteProperties.aspx" />
