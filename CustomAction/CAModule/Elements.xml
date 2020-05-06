@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction Title="Show trainers list" Description="Show trainers list" Location="Microsoft.SharePoint.StandardMenu" GroupId="SiteActions">
+    <UrlAction Url="http://win-k1qikcue0no:85/_layouts/15/JavaScript/ReadFromList.aspx"/>
+  </CustomAction>
+
+  <CustomAction Title="Show trainers list" Description="Show trainers list" Location="Microsoft.SharePoint.ListEdit" GroupId="GeneralSettings">
+    <UrlAction Url="http://win-k1qikcue0no:85/_layouts/15/JavaScript/ReadFromList.aspx"/>
+  </CustomAction>
+
+  <CustomAction Title="Show trainers list2" Description="Show trainers list2" Location="Microsoft.SharePoint.ListEdit" GroupId="GeneralSettings" Rights="ManageAlerts">
+    <UrlAction Url="http://win-k1qikcue0no:85/_layouts/15/JavaScript/ReadFromList.aspx"/>
+  </CustomAction>
+
+  <CustomAction Title="Show trainers list3"
+                Description="Show trainers list3" 
+                Location="Microsoft.SharePoint.ListEdit" 
+                GroupId="GeneralSettings" 
+                Rights="ManageAlerts"
+                RegistrationType="List"
+                RegistrationId="105">
+    <UrlAction Url="http://win-k1qikcue0no:85/_layouts/15/JavaScript/ReadFromList.aspx"/>
+  </CustomAction>
+
+  <CustomAction
+                Id ="caShowTrainers"
+                RegistrationType="List"
+                RegistrationId="101"
+                Location="EditControlBlock"
+                Sequence="106"
+                Title="Show trainers list">
+    <UrlAction Url="http://win-k1qikcue0no:85/_layouts/15/JavaScript/ReadFromList.aspx"/>
+  </CustomAction>
+  
+  <Module Name="CAModule">
+  </Module>
+</Elements>
