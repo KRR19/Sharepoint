@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScript", "JavaScript\Ja
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAction", "CustomAction\CustomAction.csproj", "{871A77DD-7FA4-47AC-8E14-51973F7F281C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonActions", "RibbonActions\RibbonActions.csproj", "{192463B5-A855-4556-A81B-D676D38CA8EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,12 @@ Global
 		{871A77DD-7FA4-47AC-8E14-51973F7F281C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{871A77DD-7FA4-47AC-8E14-51973F7F281C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{871A77DD-7FA4-47AC-8E14-51973F7F281C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{192463B5-A855-4556-A81B-D676D38CA8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192463B5-A855-4556-A81B-D676D38CA8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192463B5-A855-4556-A81B-D676D38CA8EB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{192463B5-A855-4556-A81B-D676D38CA8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192463B5-A855-4556-A81B-D676D38CA8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192463B5-A855-4556-A81B-D676D38CA8EB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

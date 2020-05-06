@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction Id="CASiteSettings1" Location="CommandUI.Ribbon.ListView"
+                RegistrationId="101"
+                RegistrationType="List"
+                Title="Site Settings1">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Documents.Share.Controls._children">
+          <Button Id="btnSiteSettings" Command="GotoSS" Description="Go to settings" LabelText="SiteSettings" TemplateAlias="o2" Sequence="93" Image32by32="_layouts/1033/Images/ps32x32.png"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      
+      <CommandUIHandlers>
+        <CommandUIHandler Command="GotoSS" CommandAction="/_layouts/settings.aspx" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+
+  <CustomAction Id="CASiteSettings2" Location="CommandUI.Ribbon.EditForm" RegistrationId="101" RegistrationType="List" Title="Site Settings 2">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.DocLibListForm.Edit.Actions.Controls._children">
+          <Button Id="btnSiteSettings" Command="GotoSS" Description="Go to settings" LabelText="Site Settings3" TemplateAlias="o2" Sequence="91" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="GotoSS" CommandAction="/_layouts/settings.aspx" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <Module Name="RibbonModule">
+  </Module>
+</Elements>
